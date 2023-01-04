@@ -38,7 +38,7 @@ const MemberInfo = ({selectedId, handleIsDialogOpen, membersInfo}) => {
 
     const handleRedirection = useCallback(() => {
         navigate(
-            '/',
+          `${process.env.PUBLIC_URL}/`,
             {
               state: {
                 showCheckbox:true,

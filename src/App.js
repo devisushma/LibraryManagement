@@ -5,7 +5,7 @@ import Members from "./Members";
 import membersInfo from "./DB/membersInfo.json";
 import { todayDate } from "./helpers";
 import './App.css';
-import { BrowserRouter as Router, Link, Route, Routes, useNavigate } from "react-router-dom"
+import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom"
 
 function App() {
   const [updatedBooks, setUpdatedBooks] = useState(books)
@@ -30,21 +30,22 @@ function App() {
 
   return (
     <div className="App">
+      {console.log(process.env,"hellooooo")}
       <Router>
         <div className="container">
           <h1 className="h1__heading">Library Management</h1>
           <ul className="horizontal-links">
             <li >
-              <Link to="/">Books List</Link>
+              <Link to={`${process.env.PUBLIC_URL}/`}>Books List</Link>
             </li>
             <li>
-              <Link to="/members">Members</Link>
+              <Link to={`${process.env.PUBLIC_URL}/members`}>Members</Link>
             </li>
           </ul>
         </div>
         <Routes>
-          <Route exact path="/" element={<BooksList books={updatedBooks} updatedBooks={handleBooks} />} />
-          <Route path="/members" element={<Members membersInfo={updatedMembersInfo} />} />
+          <Route exact path={`${process.env.PUBLIC_URL}/`} element={<BooksList books={updatedBooks} updatedBooks={handleBooks} />} />
+          <Route path={`${process.env.PUBLIC_URL}/members`} element={<Members membersInfo={updatedMembersInfo} />} />
         </Routes>
       </Router>
     </div>

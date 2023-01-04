@@ -44,7 +44,7 @@ function Members({membersInfo}) {
                 </table>
             }
         </div>
-            <img src="images/lib.png" alt="Library pic" className="lib--image"/>
+            <img src={`${process.env.PUBLIC_URL}/images/lib.png`} alt="Library pic" className="lib--image"/>
             { isDialogOpen && <Portal><MemberInfo selectedId={selectedId} handleIsDialogOpen={setIsDialogOpen} membersInfo={membersInfo}/></Portal>}
         </div>
     );

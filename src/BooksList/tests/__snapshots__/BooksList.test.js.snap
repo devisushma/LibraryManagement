@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="booksList"
+  >
+    <label>
+      Search: 
+    </label>
+    <input
+      placeholder="Enter text"
+      type="text"
+    />
+    <table
+      class="table"
+    >
+      <tbody>
+        <tr>
+          <th>
+            ISBN
+          </th>
+          <th>
+            Aurthur
+          </th>
+          <th>
+            Title
+          </th>
+          <th>
+            count
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;
