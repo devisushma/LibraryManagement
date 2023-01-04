@@ -1,0 +1,62 @@
+[
+    {
+        "student_id":168184,
+        "name": "Ahmed Ali",
+        "department":"CSE",
+        "contact_number": "01681849871"
+    },
+    {
+        "student_id":168183,
+        "name": "Ahmed",
+        "department":"CSE",
+        "contact_number": "01681849371"
+    },
+    {
+        "student_id":168182,
+        "name": "Ali",
+        "department":"CSE",
+        "contact_number": "01681829871"
+    },
+    {
+        "student_id":168181,
+        "name": "Manikanta",
+        "department":"ECE",
+        "contact_number": "01681859871"
+    },
+    {
+        "student_id":168134,
+        "name": "Manoj",
+        "department":"ECE",
+        "contact_number": "01681649871"
+    },
+    {
+        "student_id":168084,
+        "name": "Devi Sushma",
+        "department":"Civil",
+        "contact_number": "01680849871"
+    },
+    {
+        "student_id":168984,
+        "name": "Gayatri",
+        "department":"Mech",
+        "contact_number": "01691849871"
+    },
+    {
+        "student_id":162384,
+        "name": "Ruthvij",
+        "department":"Civil",
+        "contact_number": "01681849871"
+    },
+    {
+        "student_id":165684,
+        "name": "Arya",
+        "department":"Civil",
+        "contact_number": "0167849871"
+    },
+    {
+        "student_id":169084,
+        "name": "Tara",
+        "department":"IT",
+        "contact_number": "01890849871"
+    }
+]

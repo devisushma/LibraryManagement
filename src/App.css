@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background-color: #e6eeff;
+  height: 100%;
 }
 
 .App-logo {
@@ -35,4 +36,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+  background-color: #3377ff;
+  justify-content: space-between;
+}
+
+.h1__heading {
+  padding: 10px 0px 10px 10px;
+  margin:0;
+  display: inline-block;
+}
+
+.horizontal-links{
+  display: inline-flex;
+  gap: 20px;
+  list-style-type: none;  
+  margin-right: 5%;
 }

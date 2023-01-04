@@ -1,0 +1,116 @@
+[
+    {
+        "student_id":168184,
+        "name": "Ahmed Ali",
+        "books":[{
+            "isbn":"9781593279509",
+            "issuedOn":"2022-12-12",
+            "dateOfReturn":"2022-12-20"
+        },
+        {
+            "isbn":"9781491943533",
+            "issuedOn":"2022-12-11",
+            "dateOfReturn":"2022-12-18"
+        },
+        {
+            "isbn":"9781593277574",
+            "issuedOn":"2022-12-24",
+            "dateOfReturn":""
+        },
+        {
+            "isbn":"9781484242518",
+            "issuedOn":"2022-12-24",
+            "dateOfReturn":""
+        },
+        {
+            "isbn":"9781484200766",
+            "issuedOn":"2022-12-24",
+            "dateOfReturn":""
+        }]
+    },
+    {
+        "student_id":168183,
+        "name": "Ahmed",
+        "books":[{
+            "isbn":"9781593277574",
+            "issuedOn":"2022-10-11",
+            "dateOfReturn":""
+        }]
+    },
+    {
+        "student_id":168182,
+        "name": "Ali",
+        "books":[]
+    },
+    {
+        "student_id":168181,
+        "name": "Manikanta",
+        "books":[{
+            "isbn":"9781593279509",
+            "issuedOn":"2022-09-11",
+            "dateOfReturn":""
+        },
+        {
+            "isbn":"9781449365035",
+            "issuedOn":"2022-12-11",
+            "dateOfReturn":"2022-12-20"
+        }]
+    },
+    {
+        "student_id":168134,
+        "name": "Manoj",
+        "books":[{
+            "isbn":"9781449331818",
+            "issuedOn":"2022-08-18",
+            "dateOfReturn":""
+        }]
+    },
+    {
+        "student_id":168084,
+        "name": "Devi Sushma",
+        "books":[]
+    },
+    {
+        "student_id":168984,
+        "name": "Gayatri",
+        "books":[]
+    },
+    {
+        "student_id":162384,
+        "name": "Ruthvij",
+        "books":[{
+            "isbn":"9781484200766",
+            "issuedOn":"2022-08-18",
+            "dateOfReturn":"2022-09-30"
+        },
+        {
+            "isbn":"9781593279511",
+            "issuedOn":"2022-06-20",
+            "dateOfReturn":"2022-06-25"
+        },
+        {
+            "isbn":"9781449365514",
+            "issuedOn":"2022-04-12",
+            "dateOfReturn":""
+        },
+        {
+            "isbn":"9781484200517",
+            "issuedOn":"2022-12-12",
+            "dateOfReturn":"2022-12-27"
+        }]
+    },
+    {
+        "student_id":165684,
+        "name": "Arya",
+        "books":[]
+    },
+    {
+        "student_id":169084,
+        "name": "Tara",
+        "books":[{
+            "isbn":"9781484242518",
+            "issuedOn":"2022-10-11",
+            "dateOfReturn":"2022-10-14"
+        }]
+    }
+]

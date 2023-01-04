@@ -1,0 +1,12 @@
+.booksList
+.table {
+    margin-top: 10px;
+}
+.table tr:nth-child(even) {
+    background-color: #99bbff;
+}
+.table td {
+    border: 1px solid #fff;
+    padding: 0px 10px 0px 10px;
+}
+

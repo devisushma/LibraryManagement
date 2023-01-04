@@ -1,0 +1,58 @@
+.dialog--container {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: fit-content;
+    z-index: 10;
+    background-color: #6b96db;
+    border-radius: 30px;
+}
+
+.title--container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title--h4{
+ margin-left: 5%;
+ margin-bottom: 0px;
+ display: inline-block;
+}
+
+.close--icon{
+  margin-top:20px;
+  margin-right:20px
+}
+
+.student-label {
+  margin: 30px;
+}
+
+.books-table{
+  margin-top: 10px;
+}
+.books-table th {
+  border: 1px solid #fff;
+  padding: 0px 10px 0px 10px;
+}
+.books-table td {
+  border: 1px solid #fff;
+  padding: 0px 10px 0px 10px;
+}
+.totalFine--h5 {
+  display: inline-block;
+ margin: 10px 10px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.issueBook--button {
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: #5a81bf;
+  border-color: #5a81bf;
+  cursor: pointer;
+}
