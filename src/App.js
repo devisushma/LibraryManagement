@@ -25,7 +25,7 @@ function App() {
     })
     setUpdatedBooks(newBooks)
     setMemberInfo(newMembersInfo)
-    alert('issued book successfully')
+    alert('issued book successfully!')
   }
 
   return (
