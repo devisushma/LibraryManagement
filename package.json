@@ -1,6 +1,6 @@
 {
   "homepage": "http://devisushma.github.io/LibraryManagement",
-  "name": "my-app",
+  "name": "librarymanagement",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
